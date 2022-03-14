@@ -22,7 +22,7 @@ const Game: React.FC = () => {
 
   const gameOver = useCallback(() => {
     if (score > 0) {
-      alert(`Game Over \nStage ${stage}, Score: ${score}`)
+      alert(`Game Over \nStage: ${stage}, Score: ${score}`)
     } else {
       alert('Game Over')
     }
